@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Menu</title>
 	<link rel="stylesheet" href="css/hw1.css">
+	<script src = "js/menu.js"></script>
 </head>
 <body>
 	<header>
@@ -12,7 +13,7 @@
 			<a href="index.html">Home</a>
 			<a href="featured.html">Featured</a>
 			<a href="menu.html" class = "active">Menu</a>
-			<a href="aboutme.html">🎃About Us</a>
+			<a href="aboutme.html">🎃About Me</a>
 		</nav>
 	</header>
 	<main>
@@ -22,6 +23,16 @@
 			<img src="images/WhatsApp Image 2022-01-24 at 11.32.09.jpeg"/>
 
 			<img src="images/WhatsApp Image 2022-01-24 at 11.32.10.jpeg"/>
+
+			<img src="images/crown.jpeg"/>
+
+			<img src="images/broom.jpeg"/>
+
+			<img src="images/throne.jpeg"/>
+
+			<img src="images/holder.jpeg"/>
+
+			<img src="images/bottle.jpeg"/>
 		</aside>
 		<section class = "right">
 			<h2>The Complete list of HellBound Products 🔮</h2>
@@ -71,6 +82,31 @@
 					<td>❌ Sold Out</td>
 				</tr>
 			</table>
+		</section>
+
+
+		<section class="right">
+			<form>
+				<fieldset>
+					<legend>Shipping Information</legend>
+					<label for ="shippingName">Name:</label>
+					<input type = "text" name = "shipName" id = "shippingName" required><br/>
+					<label for = "shippingZip">Zip code:</label>
+					<input type = "text" name = "shipZip" id = "shippingZip" pattern = "[0-9]{5}" required><br/>
+				</fieldset>
+				<input type="checkbox" id="same" name="same" onchange= "billingFunction()"/>
+				<label for = "same">Is the Billing Information the Same?</label>
+		
+				<fieldset>
+					<legend>Billing Information</legend>
+					<label for ="billingName">Name:</label>
+					<input type = "text" name = "billName" id = "billingName" required><br/>
+					<label for = "billingZip">Zip code:</label>
+					<input type = "text" name = "billZip" id = "billingZip" pattern = "[0-9]{5}" required><br/>
+				</fieldset>
+					<input type = "submit" value = "Verify"/>
+				</form>
+				<img class="spacer" src="images/menu.jpeg"/>
 		</section>
 	</main>
 </body>
