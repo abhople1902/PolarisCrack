@@ -1,0 +1,156 @@
+header{
+    background-color: rgb(118, 61, 224);
+    background-image: url(../images/WhatsApp\ Image\ 2022-01-24\ at\ 11.40.23.jpeg);
+    height: 208px;
+    background-size: cover;
+    background-position: top;
+    float: left;
+}
+
+h1{
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    padding: 25px 10px 0px 1px;
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+h2{
+    color: #000000;
+    display: inline-block;
+    height: 3px;
+    padding: 0px 0px 0px 10px;
+}
+
+p{
+    padding: 0px 0px 0px 245px;
+}
+
+nav{
+    display: inline-block;
+    width: 100%;
+    margin-left: 30px;
+}
+
+nav a{
+    display: inline-block;
+    background-color: rgba(225, 255, 255, 0.2);
+    width: 210px;
+    height: 35px;
+    margin: 1px 50px 1px 50px;
+    padding: 19px 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+}
+
+aside{
+    width: 235px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    height: 500vh;
+    padding: 0px 0px 150px 0px;
+}
+
+.left img{
+    width: 180px;
+    margin: 35px 0px 1px 26px;
+    background-color: rgb(119, 118, 41);
+    float: left;
+    border: solid 2px #000000;
+}
+
+.left{
+    height: 40%;
+}
+
+.right{
+    margin: 0px 0px 0px 0px;
+}
+
+.active{
+    background-color: #ffffff;
+    color: #000000;
+    opacity: 100%;
+}
+
+
+section{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+li{
+    margin: 0px 0px 0px 225px;
+}
+
+
+/*For styling teams page*/
+table{
+    position: relative;
+    left: 200px;
+}
+
+tr>th{
+    background-image: -webkit-linear-gradient(rgb(51,90,35), rgb(171,181,56));
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 17px;
+    height: 40px;
+    column-width: 180px;
+    text-align: center;
+    border-spacing: 0px;
+    border-style: solid;
+    border-color: rgb(190,224,113);
+    border-width: 0px 0px 4px 0px;
+	border-radius: 4px 4px 0px 0px;
+
+    transition-property: color, background-image;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+tr>th:hover{
+    color: #000000;
+    background-image: -webkit-linear-gradient(rgb(171,181,56),rgb(170,181,56));
+}
+
+tr>th:first-child{
+    column-width: 400px;
+    text-align: left;
+    padding: 0px 0px 0px 15px;
+}
+
+tr:first-child{
+    text-align: left;
+}
+
+
+td{
+    background-color: rgb(215, 235, 191);
+    color: #000000;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.7;
+    border-radius: 2px;
+}
+tr>td:first-child{
+    text-align: left;
+    padding: 0px 0px 0px 15px;
+}
+
+td:hover~td{
+    opacity: 1.0;
+}
+td:hover{
+    opacity: 1.0;
+}
