@@ -7,6 +7,10 @@ header{
     float: left;
 }
 
+body{
+    background-color: rgb(38, 31, 68);
+}
+
 h1{
     display: inline-block;
     height: 40px;
@@ -20,14 +24,14 @@ h1{
 }
 
 h2{
-    color: #000000;
+    color: #ffffff;
     display: inline-block;
     height: 3px;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 20px;
 }
 
 p{
-    padding: 0px 0px 0px 245px;
+    padding: 0px 0px 0px 260px;
 }
 
 nav{
@@ -46,7 +50,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
 }
 
@@ -72,6 +76,8 @@ aside{
 
 .right{
     margin: 0px 0px 0px 0px;
+    height: 80%;
+    font-size: large;
 }
 
 .active{
@@ -82,8 +88,7 @@ aside{
 
 
 section{
-    background-color: #ffffff;
-    color: #000000;
+    color: #ffffff;
 }
 
 li{
@@ -91,24 +96,32 @@ li{
 }
 
 
-/*For styling teams page*/
+/* .heaven{
+    
+    
+} */
+
+
+
+
+
 table{
     position: relative;
-    left: 200px;
+    left: 250px;
 }
 
 tr>th{
-    background-image: -webkit-linear-gradient(rgb(51,90,35), rgb(171,181,56));
+    background-image: -webkit-linear-gradient(rgb(88, 88, 112), rgb(29, 27, 36));
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     line-height: 17px;
     height: 40px;
-    column-width: 180px;
+    column-width: 105px;
     text-align: center;
     border-spacing: 0px;
     border-style: solid;
-    border-color: rgb(190,224,113);
+    border-color: rgb(0, 0, 0);
     border-width: 0px 0px 4px 0px;
 	border-radius: 4px 4px 0px 0px;
 
@@ -118,11 +131,11 @@ tr>th{
 }
 tr>th:hover{
     color: #000000;
-    background-image: -webkit-linear-gradient(rgb(171,181,56),rgb(170,181,56));
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255),rgb(153, 88, 28));
 }
 
 tr>th:first-child{
-    column-width: 400px;
+    column-width: 288px;
     text-align: left;
     padding: 0px 0px 0px 15px;
 }
@@ -133,8 +146,8 @@ tr:first-child{
 
 
 td{
-    background-color: rgb(215, 235, 191);
-    color: #000000;
+    background-color: rgb(88, 88, 112);
+    color: #ffffff;
     height: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
